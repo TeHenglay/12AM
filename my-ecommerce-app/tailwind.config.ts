@@ -13,8 +13,8 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        custom: ['Bronx'],
-    },
+        custom: ['MyFont', 'sans-serif'], // Use 'custom' as your Tailwind utility
+      },
   },
   plugins: [],
 } 

@@ -1,21 +1,27 @@
-
-
-const Navbar = () => {
-  return (
-    <nav className="bg-white shadow p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-blue-500">12AM</h1>
-        <div>
-          <Link href="/">
-            <a className="text-gray-700 hover:text-blue-500 mx-2">Home</a>
-          </Link>
-          <Link href="/login">
-            <a className="text-gray-700 hover:text-blue-500 mx-2">Login</a>
-          </Link>
-        </div>
-      </div>
-    </nav>
-  );
+// app/layout.tsx
+export const metadata = {
+  title: '12AM - Twelve AM',
+  description: 'Where Today Meet Tomorrow',
 };
 
-export default Navbar;
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body className="font-sans bg-gray-50">
+        <header className="bg-black text-white py-4">
+          <div className="container mx-auto px-4">
+            <h1 className="text-2xl font-bold">12AM</h1>
+          </div>
+        </header>
+        <main className="container mx-auto px-4 py-8">{children}</main>
+        <footer className="bg-black text-white py-4 text-center">
+          <p>© 2025 12AM. All rights reserved.</p>
+        </footer>
+      </body>
+    </html>
+  );
+}
