@@ -17,19 +17,19 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'MyFont';
 }
 
 @font-face {
   font-family: 'MyFont';
-  src: url('/fonts/MyFont-Regular.otf') format('truetype');
+  src: url('./public/fonts/MyFont-Regular.otf') format('opentype');
   font-weight: 400; /* Regular */
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MyFont';
-  src: url('/fonts/MyFont-Bold.otf') format('truetype');
+  src: url('./public/fonts/MyFont-Bold.otf') format('opentype');
   font-weight: 700; /* Bold */
   font-style: normal;
 }

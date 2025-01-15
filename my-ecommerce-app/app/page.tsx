@@ -1,8 +1,10 @@
 export default function HomePage() {
   return (
-    <div className="text-center font-custom">
-      <h1 className="text-4xl font-bold mb-4">Welcome to 12AM</h1>
-      <p className="text-lg">Your go-to store for modern fashion.</p>
+    <div className="font-custom bg-gray-50 min-h-screen flex flex-col items-center justify-center">
+      <h1 className="text-4xl font-bold">Welcome to 12AM</h1>
+      <p className="text-lg mt-4">
+        Your one-stop shop for minimalist shirts.
+      </p>
     </div>
   );
 }

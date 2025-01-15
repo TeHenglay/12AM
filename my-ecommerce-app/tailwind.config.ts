@@ -13,7 +13,7 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        custom: ['MyFont', 'sans-serif'], // Use 'custom' as your Tailwind utility
+        custom: ['MyFont'], //  'sans-serif'
       },
   },
   plugins: [],
