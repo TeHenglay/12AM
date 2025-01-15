@@ -11,14 +11,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-sans bg-gray-50">
+      <body className="font-custom bg-gray-50">
         <header className="bg-black text-white py-4">
           <div className="container mx-auto px-4">
-            <h1 className="text-2xl font-bold">12AM</h1>
+            <h1 className="font-custom text-2xl font-bold">12AM</h1>
           </div>
         </header>
         <main className="container mx-auto px-4 py-8">{children}</main>
-        <footer className="bg-black text-white py-4 text-center">
+        <footer className="font-custom bg-black text-white py-4 text-center">
           <p>© 2025 12AM. All rights reserved.</p>
         </footer>
       </body>
