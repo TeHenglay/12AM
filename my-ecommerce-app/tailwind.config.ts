@@ -13,7 +13,7 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        custom: ['MyFont'], //  'sans-serif'
+        custom: ['MyFont','sans-serif'], //  'sans-serif'
       },
   },
   plugins: [],
