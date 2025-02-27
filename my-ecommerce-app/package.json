@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "framer-motion": "^11.18.2",
+    "lucide-react": "^0.476.0",
     "my-ecommerce-app": "file:",
     "next": "15.1.4",
     "react": "^19.0.0",

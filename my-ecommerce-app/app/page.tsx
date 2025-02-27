@@ -13,7 +13,7 @@ export default function HomePage() {
           </button>
           </Link>
 
-          </div>
+          </div>  
           </div>
       
     </div>
