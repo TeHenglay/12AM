@@ -20,7 +20,7 @@ const HeroSection = () => {
           <div className="md:w-1/2 relative">
             <div className="rounded-lg overflow-hidden">
               <Image 
-                src="/public/bg.png" 
+                src="/bg.png" 
                 alt="Colorful VIBES design" 
                 width={600} 
                 height={400}
