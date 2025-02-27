@@ -4,6 +4,8 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Footer from '../components/Footer/Footer';
 
+
+
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
@@ -24,7 +26,10 @@ export default function RootLayout({
             <h1 className="font-custom text-2xl font-bold">12AM</h1>
           </div>
         </header>
-        <main className="container mx-auto px-4 py-8">{children}</main>
+
+        <main className="container mx-auto px-4 py-8">{children}
+          
+        </main>
         <Footer />
 
       </body>
