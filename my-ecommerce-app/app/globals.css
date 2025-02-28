@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #000000;
-}
+} */
 :root {
   --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
@@ -17,6 +17,16 @@
   overflow: hidden;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
 .nav-container,
 .nav-container * {
   box-sizing: border-box;
@@ -29,18 +39,12 @@ button {
   outline: 0;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #ffffff;
     --foreground: #000000;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  background-color: #ffffff;
-}
+} */
 
 @font-face {
   font-family: 'MyFont';
