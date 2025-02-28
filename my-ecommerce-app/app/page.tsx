@@ -1,11 +1,11 @@
 import Head from 'next/head';
-import Navbar from '../components/NavBar/NavBar';
-import HeroSection from '../components/Hero/Hero';
+import Navbar from './NavBar/Navbar';
+import HeroSection from './Hero/Hero';
 
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-black">
+    <div className="">
       <Head>
         <title>12AM | Home</title>
         <meta name="description" content="Welcome to 12AM - Night vibes and more" />
@@ -14,7 +14,7 @@ export default function HomePage() {
 
       <Navbar />
       <main>
-        <HeroSection />
+        {/* <HeroSection /> */}
       </main>
     </div>
   );
